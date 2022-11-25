@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-family: cursive;
+    
+    
+}
+nav ul{
+    padding-top: 15px;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+   
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+ 
+   
+}
+@media only screen and (max-width:600px){
+    .nav{
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    nav{
+       padding-top:13px;
+    }
+}
+/* styling section 1 -------------------------->
+--------------------------------------> */
+.section1{
+    background-image: url(./images/la.jpg);
+    background-position: center center;
+    height: 600px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top:43% ;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    
+}
+@media only screen and (max-width:600px){
+    .section1{
+        height: 500px;
+        padding-top:100% ;
+    }
+}
+/* styling section 2--------------------
+----------------------------------------> */
+.section2{
+    /* text-align: center; */
+    max-width:800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.section2 .row1{
+    margin: auto;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 15;
+    line-height: 2.7em;
+}
+.section2 .row2{
+    font-family:"Segoe UI",Arial,sans-serif ;
+    font-weight: 1em;
+    line-height: 1.5em;
+    /* text-align: center; */
+}
+@media only screen and (max-width:600px){
+    .section2{
+        max-width: 300px;
+        /* color: red; */
+    }
+}
+/* styling section2 row3------------------------>
+---------------------------------------------> */
+.section2 .row3{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: 45px;
+    
+}
+@media only screen and (max-width:600px){
+    .section2 .row3{
+        display: block;
+        margin-left: 14px;
+    }
+}
+
+
+.section2 .row3 p{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 40%;
+    padding: 13px;
+}
+@media only screen and (max-width:600px){
+    .section2 .row3 p{
+        margin-left: 27%;
+    }
+}
+
+
+
+.section2 .row3 img{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:600px){
+    .section2 .row3 img{
+        width: 270px;
+        height: 210px;
+        margin: auto;
+        
+    }
+}
+.section3{
+    margin-top: 120px;
+    background-color: black;
+    padding: 44px;
+  
+
+}
+
+/* section3 css----------------------------
+------------------------------------------------------------- */
+
+.section3 .row4{
+    text-align: center;
+    line-height: 2.3em;
+    color: rgb(235, 235, 232);
+}
+
+.section3 .row4 h2{
+    letter-spacing: 7px;
+    font-size: 2.0em;
+}
+
+
+.section3 .row5{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+
+}
+.section3 .row5 button{
+    background-color: rgb(252, 106, 53);
+    color: white;
+    padding: 4px;
+    border: none;
+    margin-left: 5px;
+}
+.section3 .row5 p{
+    margin: 10px;
+    font-family: cursive;
+    color: gray;
+}
+
+.section3 .row6{
+    /* box-sizing: inherit; */
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    
+}
+@media only screen and (max-width:600px){
+    .section3 .row6{
+         display: block;
+         padding: 10px;
+    
+    }
+}
+.section3 .row6 button{
+    padding: 11px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.row6 .root1 , .root2 , .root3{
+    background-color: white;
+    border: 1px  black;
+    width: 250px;
+    line-height: 2em;
+    color: black;
+    
+}
+@media only screen and (max-width:600px){
+    .row6 .root1 , .root2 , .root3{
+        margin: 20px;
+        
+    }
+
+}
+.root1 h3, p ,button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.root2 h3, p ,button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.root3 h3, p ,button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+
+.section4 .row7{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.section4 .row7 h1{
+    font-size: 2.5em;
+}
+.section4 .row8 {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+@media only screen and (max-width:600px){
+    .section4 .row8{
+        display: block;
+     
+    }
+
+}
+.section4 .row8 .root4{
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-top: 12px;
+}
+@media only screen  and (max-width:600px){
+    .section4 .row8 .root4{
+        margin-bottom: 30px;
+
+    }
+
+}
+.section4 .row8 .form{
+    padding: 10px;
+}
+.section4 .row8 .form input{
+    padding: 9px;
+   width: 180px;
+   margin: 4px;
+}
+.section4 .row8 .form .long{
+    width: 370px;
+}
+.section4 .row8 .form button{
+    padding: 9px;
+    background-color: black;
+    color: whitesmoke;
+    width: 20%;
+    margin-left: 78%;
+}
+
+/* section5-----------------------------
+------------------------------------------ */
+.section5{
+    margin-top: 60px;
+}
+.section5 .row9 img{
+    /* width: 50%; */
+    height: 10%;
+}
+@media only screen and (max-width:600px){
+    .section5 .row9 img{
+        width: 100%;
+    }
+}
+/* footer----------------------------
+------------------------------------------ */
+footer p{
+    color: grey;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
